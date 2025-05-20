@@ -1,364 +1,975 @@
-лист. 27, 2024 3:49:14 ПП main.Main main
-INFO: Запуск програми...
-лист. 27, 2024 3:49:14 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 27, 2024 3:49:14 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 27, 2024 3:49:14 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:49:21 ПП main.Main startMenu
-FINE: Обрано пункт меню: 1
-лист. 27, 2024 3:49:21 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 1
-лист. 27, 2024 3:49:21 ПП commands.AddFlowerCommand execute
-INFO: Розпочато виконання команди додавання квітки.
-лист. 27, 2024 3:49:24 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 4
-лист. 27, 2024 3:49:24 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив невірний вибір типу квітки.
-лист. 27, 2024 3:49:25 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 3:49:25 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив невірний вибір типу квітки.
-лист. 27, 2024 3:49:26 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 2
-лист. 27, 2024 3:49:32 ПП utils.InputUtils getStringInput
-INFO: Отримано рядок: зелений
-лист. 27, 2024 3:49:34 ПП utils.InputUtils getValidDouble
-INFO: Отримано дійсне число: 125.0
-лист. 27, 2024 3:49:38 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 2
-лист. 27, 2024 3:49:41 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 124
-лист. 27, 2024 3:49:51 ПП utils.InputUtils getValidBoolean
-INFO: Отримано булеве значення: true
-лист. 27, 2024 3:49:51 ПП commands.AddFlowerCommand execute
-INFO: Квітку успішно додано: Лілія, колір: зелений, ціна: 125.0, свіжість: 2 днів, довжина стебла: 124 см, має аромат: так
-лист. 27, 2024 3:49:51 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку
-лист. 27, 2024 3:49:51 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:49:55 ПП main.Main startMenu
-FINE: Обрано пункт меню: 4
-лист. 27, 2024 3:49:55 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 4
-лист. 27, 2024 3:49:55 ПП commands.AddToBouquetCommand execute
-INFO: Розпочато виконання команди додавання квітки до букета.
-лист. 27, 2024 3:49:55 ПП commands.AddToBouquetCommand execute
-INFO: Квітка додана до букета: Троянда, колір: білий, ціна: 12.0, свіжість: 7 днів, довжина стебла: 40 см, має шипи: так
-лист. 27, 2024 3:49:55 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку до букета
-лист. 27, 2024 3:49:55 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:49:56 ПП main.Main startMenu
-FINE: Обрано пункт меню: 4
-лист. 27, 2024 3:49:56 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 4
-лист. 27, 2024 3:49:56 ПП commands.AddToBouquetCommand execute
-INFO: Розпочато виконання команди додавання квітки до букета.
-лист. 27, 2024 3:49:56 ПП commands.AddToBouquetCommand execute
-INFO: Квітка додана до букета: Ромашка, колір: жовтий, ціна: 15.0, свіжість: 2 днів, довжина стебла: 23 см, кількість пелюсток: 50
-лист. 27, 2024 3:49:56 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку до букета
-лист. 27, 2024 3:49:56 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:49:57 ПП main.Main startMenu
-FINE: Обрано пункт меню: 4
-лист. 27, 2024 3:49:57 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 4
-лист. 27, 2024 3:49:57 ПП commands.AddToBouquetCommand execute
-INFO: Розпочато виконання команди додавання квітки до букета.
-лист. 27, 2024 3:49:57 ПП commands.AddToBouquetCommand execute
-INFO: Квітка додана до букета: Лілія, колір: червоний, ціна: 10.0, свіжість: 5 днів, довжина стебла: 30 см, має аромат: так
-лист. 27, 2024 3:49:57 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку до букета
-лист. 27, 2024 3:49:57 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:50:47 ПП main.Main startMenu
-FINE: Обрано пункт меню: 3
-лист. 27, 2024 3:50:47 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 3
-лист. 27, 2024 3:50:47 ПП commands.DeleteFlowerCommand execute
-INFO: Квітка успішно видалена: Лілія, колір: червоний, ціна: 10.0, свіжість: 5 днів, довжина стебла: 30 см, має аромат: так
-лист. 27, 2024 3:50:47 ПП menu.Menu selectOption
-INFO: Команда виконана: Видалити квітку
-лист. 27, 2024 3:50:47 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:51:19 ПП main.Main startMenu
-FINE: Обрано пункт меню: 7
-лист. 27, 2024 3:51:19 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 7
-лист. 27, 2024 3:51:20 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 4
-лист. 27, 2024 3:51:20 ПП commands.ChooseAccessoryCommand execute
-WARNING: Неправильний вибір аксесуара.
-лист. 27, 2024 3:51:21 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 2
-лист. 27, 2024 3:51:21 ПП commands.ChooseAccessoryCommand execute
-INFO: Користувач обрав тип аксесуара: 2
-лист. 27, 2024 3:51:25 ПП utils.InputUtils getValidDouble
-INFO: Отримано дійсне число: 25.0
-лист. 27, 2024 3:51:35 ПП utils.InputUtils getStringInput
-INFO: Отримано рядок: жовтий
-лист. 27, 2024 3:51:35 ПП commands.ChooseAccessoryCommand execute
-INFO: Аксесуар успішно додано: Подарункова обгортка, колір: жовтий, ціна: 25.0 грн
-лист. 27, 2024 3:51:35 ПП menu.Menu selectOption
-INFO: Команда виконана: Обрати аксесуар
-лист. 27, 2024 3:51:35 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:51:46 ПП main.Main startMenu
-FINE: Обрано пункт меню: 8
-лист. 27, 2024 3:51:46 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 8
-лист. 27, 2024 3:51:46 ПП commands.SortFreshnessCommand execute
+трав. 17, 2025 7:06:05 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 17, 2025 7:06:05 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 17, 2025 7:06:05 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 17, 2025 7:06:06 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 17, 2025 7:06:21 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 17, 2025 7:06:21 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Троянда, колір: червоний, ціна: 35.0, свіжість: 2 днів, довжина стебла: 40 см, має шипи: так
+трав. 17, 2025 7:06:21 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Троянда, колір: червоний, ціна: 35.0, свіжість: 2 днів, довжина стебла: 40 см, має шипи: так
+трав. 17, 2025 7:06:23 ПП gui.MainLayout lambda$new$1
+INFO: Користувач натиснув 'Розрахувати ціну'
+трав. 17, 2025 7:06:23 ПП commands.CalculatePriceCommand execute
+INFO: Розрахунок вартості виконано. Загальна вартість: 35.0 грн
+трав. 18, 2025 5:38:34 ПП utils.LoggerManagerTest testLogFileContainsSevereMessage
+SEVERE: Це критична помилка, яка має потрапити в лог і на пошту
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Без запаху (TypeX)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup main
+INFO: Шлях до бази: D:\JAVA_LR\coursework\flowers.db
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup main
+INFO: Створення таблиці...
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup main
+INFO: Таблиця створена або вже існує.
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Троянда (Rose)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Ромашка (Chamomile)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Піон весняний (Peony)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup main
+INFO: Квіти успішно додано до бази даних.
+трав. 18, 2025 5:38:38 ПП database.FlowerDatabaseSetup insertFlower
+INFO: Квітка додана: Троянда (Rose)
+трав. 18, 2025 5:38:38 ПП commands.SortFreshnessCommand execute
 INFO: Розпочато сортування квітів за свіжістю.
-лист. 27, 2024 3:51:46 ПП commands.SortFreshnessCommand execute
-INFO: Сортування квітів за свіжістю завершено.
-лист. 27, 2024 3:51:46 ПП menu.Menu selectOption
-INFO: Команда виконана: Сортувати за свіжістю
-лист. 27, 2024 3:51:46 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:51:50 ПП main.Main startMenu
-FINE: Обрано пункт меню: 9
-лист. 27, 2024 3:51:50 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 9
-лист. 27, 2024 3:51:50 ПП commands.SearchStemCommand execute
-INFO: Розпочато пошук квітів за довжиною стебла.
-лист. 27, 2024 3:51:55 ПП commands.SearchStemCommand execute
-INFO: Мінімальна довжина: 24, максимальна довжина: 60
-лист. 27, 2024 3:51:55 ПП commands.SearchStemCommand execute
-INFO: Пошук квітів за довжиною стебла завершено успішно.
-лист. 27, 2024 3:51:55 ПП menu.Menu selectOption
-INFO: Команда виконана: Знайти за стеблом
-лист. 27, 2024 3:51:55 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:51:58 ПП main.Main startMenu
-FINE: Обрано пункт меню: 6
-лист. 27, 2024 3:51:58 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 6
-лист. 27, 2024 3:51:58 ПП commands.CalculatePriceCommand execute
-INFO: Розрахунок вартості букета успішно виконано. Загальна вартість: 62.0 грн
-лист. 27, 2024 3:51:58 ПП menu.Menu selectOption
-INFO: Команда виконана: Розрахувати ціну
-лист. 27, 2024 3:51:58 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:52:02 ПП main.Main startMenu
-FINE: Обрано пункт меню: 10
-лист. 27, 2024 3:52:02 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 10
-лист. 27, 2024 3:52:02 ПП commands.DisplayBouquetCommand execute
+трав. 18, 2025 5:38:38 ПП commands.SortFreshnessCommand execute
+WARNING: Букет порожній
+трав. 18, 2025 5:38:38 ПП commands.SortFreshnessCommand execute
+INFO: Розпочато сортування квітів за свіжістю.
+трав. 18, 2025 5:38:38 ПП commands.SortFreshnessCommand execute
+INFO: Сортування квітів завершено. Кількість квіток після сортування: 2
+трав. 18, 2025 5:38:38 ПП commands.SortFreshnessCommand execute
+INFO: Розпочато сортування квітів за свіжістю.
+трав. 18, 2025 5:38:38 ПП commands.SortFreshnessCommand execute
+SEVERE: Сталася помилка при сортуванні квіток
+java.lang.RuntimeException: Test Exception
+	at bouquet.Bouquet.getFlowers(Bouquet.java:19)
+	at commands.SortFreshnessCommand.execute(SortFreshnessCommand.java:24)
+	at commands.SortFreshnessCommandTest.testExceptionHandling(SortFreshnessCommandTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+
+трав. 18, 2025 5:38:40 ПП commands.DisplayBouquetCommand execute
 INFO: Розпочато відображення вмісту букета.
-лист. 27, 2024 3:52:02 ПП commands.DisplayBouquetCommand execute
-INFO: Відображено 3 квіток у букеті.
-лист. 27, 2024 3:52:02 ПП commands.DisplayBouquetCommand execute
-INFO: Відображено 1 аксесуарів у букеті.
-лист. 27, 2024 3:52:02 ПП commands.DisplayBouquetCommand execute
+трав. 18, 2025 5:38:40 ПП commands.DisplayBouquetCommand execute
+WARNING: Спроба відобразити квіти у порожньому букеті.
+трав. 18, 2025 5:38:40 ПП commands.DisplayBouquetCommand execute
+WARNING: Спроба відобразити аксесуари у порожньому букеті.
+трав. 18, 2025 5:38:40 ПП commands.DisplayBouquetCommand execute
 INFO: Завершено відображення вмісту букета.
-лист. 27, 2024 3:52:02 ПП menu.Menu selectOption
-INFO: Команда виконана: Вивести отриманий букет
-лист. 27, 2024 3:52:02 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 3:52:05 ПП main.Main startMenu
-FINE: Обрано пункт меню: 0
-лист. 27, 2024 3:52:05 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 0
-лист. 27, 2024 3:52:05 ПП menu.Menu selectOption
-INFO: Користувач завершив роботу.
-лист. 27, 2024 3:52:05 ПП main.Main startMenu
-INFO: Завершення програми.
-лист. 27, 2024 4:13:21 ПП main.Main main
-INFO: Запуск програми...
-лист. 27, 2024 4:13:21 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 27, 2024 4:13:21 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 27, 2024 4:13:21 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:13:24 ПП main.Main startMenu
-FINE: Обрано пункт меню: 1
-лист. 27, 2024 4:13:24 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 1
-лист. 27, 2024 4:13:24 ПП commands.AddFlowerCommand execute
-INFO: Розпочато виконання команди додавання квітки.
-лист. 27, 2024 4:13:25 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:13:25 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив невірний вибір типу квітки. Спроба: 1
-лист. 27, 2024 4:13:26 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:13:26 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив невірний вибір типу квітки. Спроба: 2
-лист. 27, 2024 4:13:27 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 4
-лист. 27, 2024 4:13:27 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив невірний вибір типу квітки. Спроба: 3
-лист. 27, 2024 4:13:27 ПП commands.AddFlowerCommand execute
-SEVERE: Користувач перевищив ліміт спроб для вибору типу квітки.
-лист. 27, 2024 4:13:27 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку
-лист. 27, 2024 4:13:27 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:13:39 ПП main.Main startMenu
-FINE: Обрано пункт меню: 0
-лист. 27, 2024 4:13:39 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 0
-лист. 27, 2024 4:13:39 ПП menu.Menu selectOption
-INFO: Користувач завершив роботу.
-лист. 27, 2024 4:13:39 ПП main.Main startMenu
-INFO: Завершення програми.
-лист. 27, 2024 4:35:23 ПП main.Main main
-INFO: Запуск програми...
-лист. 27, 2024 4:35:23 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 27, 2024 4:35:23 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 27, 2024 4:35:23 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:38:26 ПП main.Main main
-INFO: Запуск програми...
-лист. 27, 2024 4:38:26 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 27, 2024 4:38:26 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 27, 2024 4:38:26 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:38:29 ПП main.Main startMenu
-FINE: Обрано пункт меню: 1
-лист. 27, 2024 4:38:29 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 1
-лист. 27, 2024 4:38:29 ПП commands.AddFlowerCommand execute
-INFO: Розпочато виконання команди додавання квітки.
-лист. 27, 2024 4:38:30 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:38:30 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 1
-лист. 27, 2024 4:38:30 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:38:30 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 2
-лист. 27, 2024 4:38:31 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:38:31 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 3
-лист. 27, 2024 4:38:31 ПП commands.AddFlowerCommand execute
-SEVERE: Користувач перевищив ліміт спроб для вибору типу квітки.
-лист. 27, 2024 4:38:33 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку
-лист. 27, 2024 4:38:33 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:43:51 ПП main.Main main
-INFO: Запуск програми...
-лист. 27, 2024 4:43:51 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 27, 2024 4:43:51 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 27, 2024 4:43:51 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:43:54 ПП main.Main startMenu
-FINE: Обрано пункт меню: 7
-лист. 27, 2024 4:43:54 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 7
-лист. 27, 2024 4:43:56 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:43:56 ПП commands.ChooseAccessoryCommand execute
-WARNING: Некоректний вибір аксесуара. Спроба 1
-лист. 27, 2024 4:43:57 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:43:57 ПП commands.ChooseAccessoryCommand execute
-WARNING: Некоректний вибір аксесуара. Спроба 2
-лист. 27, 2024 4:43:58 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 27, 2024 4:43:58 ПП commands.ChooseAccessoryCommand execute
-SEVERE: Користувач некоректно вводить аксесуар вже тричі
-лист. 27, 2024 4:44:01 ПП menu.Menu selectOption
-INFO: Команда виконана: Обрати аксесуар
-лист. 27, 2024 4:44:01 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 27, 2024 4:44:07 ПП main.Main startMenu
-FINE: Обрано пункт меню: 0
-лист. 27, 2024 4:44:07 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 0
-лист. 27, 2024 4:44:07 ПП menu.Menu selectOption
-INFO: Користувач завершив роботу.
-лист. 27, 2024 4:44:07 ПП main.Main startMenu
-INFO: Завершення програми.
-лист. 28, 2024 1:10:05 ПП main.Main main
-INFO: Запуск програми...
-лист. 28, 2024 1:10:06 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 28, 2024 1:10:06 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 28, 2024 1:10:06 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 28, 2024 1:10:08 ПП main.Main startMenu
-FINE: Обрано пункт меню: 1
-лист. 28, 2024 1:10:08 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 1
-лист. 28, 2024 1:10:08 ПП commands.AddFlowerCommand execute
-INFO: Розпочато виконання команди додавання квітки.
-лист. 28, 2024 1:10:13 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 4
-лист. 28, 2024 1:10:13 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 1
-лист. 28, 2024 1:10:13 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 4
-лист. 28, 2024 1:10:13 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 2
-лист. 28, 2024 1:10:14 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 4
-лист. 28, 2024 1:10:14 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 3
-лист. 28, 2024 1:10:14 ПП commands.AddFlowerCommand execute
-SEVERE: Користувач перевищив ліміт спроб для вибору типу квітки.
-лист. 28, 2024 1:10:14 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку
-лист. 28, 2024 1:10:14 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 28, 2024 1:11:13 ПП main.Main main
-INFO: Запуск програми...
-лист. 28, 2024 1:11:13 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 28, 2024 1:11:13 ПП main.Main startMenu
-INFO: Початок роботи меню.
-лист. 28, 2024 1:11:13 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 28, 2024 1:11:22 ПП main.Main startMenu
-FINE: Обрано пункт меню: 1
-лист. 28, 2024 1:11:22 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 1
-лист. 28, 2024 1:11:22 ПП commands.AddFlowerCommand execute
-INFO: Розпочато виконання команди додавання квітки.
-лист. 28, 2024 1:11:22 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 28, 2024 1:11:22 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 1
-лист. 28, 2024 1:11:23 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 28, 2024 1:11:23 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 2
-лист. 28, 2024 1:11:24 ПП utils.InputUtils getValidInt
-INFO: Отримано ціле число: 5
-лист. 28, 2024 1:11:24 ПП commands.AddFlowerCommand execute
-WARNING: Користувач зробив некоректний вибір типу квітки. Спроба: 3
-лист. 28, 2024 1:11:24 ПП commands.AddFlowerCommand execute
-SEVERE: Користувач перевищив ліміт спроб для вибору типу квітки.
-лист. 28, 2024 1:11:28 ПП menu.Menu selectOption
-INFO: Команда виконана: Додати квітку
-лист. 28, 2024 1:11:28 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 28, 2024 1:11:28 ПП main.Main startMenu
-FINE: Обрано пункт меню: 5
-лист. 28, 2024 1:11:28 ПП menu.Menu selectOption
-FINE: Користувач обрав опцію: 5
-лист. 28, 2024 1:11:28 ПП commands.DeleteFromBouquetCommand execute
-WARNING: Спроба видалити квітку з порожнього букета.
-лист. 28, 2024 1:11:28 ПП menu.Menu selectOption
-INFO: Команда виконана: Видалити квітку з букета
-лист. 28, 2024 1:11:28 ПП menu.Menu displayMenu
-FINE: Відображення меню користувачу.
-лист. 28, 2024 1:18:11 ПП main.Main main
-INFO: Запуск програми...
-лист. 28, 2024 1:18:11 ПП utils.ReadFromFile flowersFromFile
-INFO: Файл успішно оброблено: src/Flower.txt
-лист. 28, 2024 1:18:11 ПП main.Main main
-SEVERE: Критична помилка: / by zero
+трав. 18, 2025 5:38:40 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 18, 2025 5:38:40 ПП commands.DisplayBouquetCommand execute
+SEVERE: Помилка при відображенні букета: Unexpected error
+трав. 18, 2025 5:38:41 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 18, 2025 5:38:41 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 квіток у букеті.
+трав. 18, 2025 5:38:41 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 аксесуарів у букеті.
+трав. 18, 2025 5:38:41 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 18, 2025 5:38:41 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 18, 2025 5:38:41 ПП commands.DisplayBouquetCommand execute
+SEVERE: Об'єкт букет не ініціалізований (null).
+трав. 18, 2025 5:38:43 ПП commands.CalculatePriceCommand execute
+INFO: Розрахунок вартості виконано. Загальна вартість: 100.0 грн
+трав. 18, 2025 5:38:43 ПП commands.CalculatePriceCommand execute
+SEVERE: Помилка під час розрахунку вартості: Помилка доступу до квітів
+трав. 18, 2025 5:38:44 ПП com.sun.javafx.application.PlatformImpl startup
+WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @6f6962ba'
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:45 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:45 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:46 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: TestFlower: Троянда
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:47 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:47 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:48 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 18, 2025 5:38:48 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Троянда, колір: червоний, ціна: 35.0, свіжість: 2 днів, довжина стебла: 40 см, має шипи: так
+трав. 18, 2025 5:38:48 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Троянда, колір: червоний, ціна: 35.0, свіжість: 2 днів, довжина стебла: 40 см, має шипи: так
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:48 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:48 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:52 ПП color.Color isValidColor
+WARNING: Некоректний колір: -100-10
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:52 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:52 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:53 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:53 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:53 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:54 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 5:38:54 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:54 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 5:38:55 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet addAccessory
+INFO: Аксесуар додано до букета: Бант, розмір: 10 см, ціна: 5.0 грн
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet addAccessory
+INFO: Аксесуар додано до букета: Бант, розмір: 12 см, ціна: 6.0 грн
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet addAccessory
+INFO: Аксесуар додано до букета: Бант, розмір: 14 см, ціна: 7.0 грн
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet addAccessory
+WARNING: Максимальна кількість аксесуарів досягнута (3). Аксесуар не додано: Бант, розмір: 16 см, ціна: 8.0 грн
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: TestFlower: Троянда
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: TestFlower: Тюльпан
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet removeFlower
+INFO: Квітка видалена з букета: TestFlower: Троянда
+трав. 18, 2025 5:38:55 ПП bouquet.Bouquet removeFlower
+WARNING: Квітку не знайдено в букеті: TestFlower: Троянда
+трав. 18, 2025 5:38:55 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 18, 2025 5:38:55 ПП commands.DeleteFromBouquetCommand execute
+SEVERE: Помилка під час видалення квітки: Unexpected error
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+WARNING: Спроба видалити квітку, якої немає в букеті: null
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+WARNING: Спроба видалити квітку, якої немає в букеті: Mock for Flower, hashCode: 24113917
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+WARNING: Спроба видалити квітку, якої немає в букеті: Mock for Flower, hashCode: 1922075554
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+INFO: Квітка видалена з букета: Mock for Flower, hashCode: 306461456
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 18, 2025 5:38:56 ПП commands.DeleteFromBouquetCommand execute
+WARNING: Спроба видалити квітку, якої немає в букеті: Mock for Flower, hashCode: 1191653323
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Аксесуар додано до букета: Стрічка, довжина: 50 см, ціна: 7.5 грн
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+WARNING: Невірний формат числа при введенні: For input string: "abc"
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+WARNING: Некоректний розмір бантика: 25
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП color.Color isValidColor
+WARNING: Некоректний колір: неіснуючий
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+WARNING: Некоректний колір обгортки: неіснуючий
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Користувач скасував вибір аксесуара.
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+WARNING: Спроба додати аксесуар перевищує ліміт у 3 штуки.
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+WARNING: Введено від’ємну ціну аксесуара: -10.0
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:56 ПП commands.ChooseAccessoryCommand execute
+SEVERE: Невідома помилка при додаванні аксесуара: Unexpected
+трав. 18, 2025 5:38:58 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:58 ПП commands.ChooseAccessoryCommand execute
+WARNING: Введено від’ємну довжину стрічки: -5
+трав. 18, 2025 5:38:58 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 18, 2025 5:38:58 ПП commands.ChooseAccessoryCommand execute
+INFO: Аксесуар додано до букета: Бант, розмір: 20 см, ціна: 12.5 грн
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: UnknownFlower (UnknownType)
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+WARNING: Не вдалося додати квітку через невідомий тип: UnknownType
+трав. 18, 2025 5:38:58 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 8:41:25 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 18, 2025 8:41:25 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 18, 2025 8:41:25 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 18, 2025 8:41:27 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 19, 2025 11:20:08 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 19, 2025 11:20:08 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 19, 2025 11:20:09 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 19, 2025 11:20:09 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 19, 2025 11:20:12 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 19, 2025 11:33:13 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 19, 2025 11:33:13 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Лілія, колір: рожевий, ціна: 40.0, свіжість: 1 днів, довжина стебла: 30 см, має аромат: так
+трав. 19, 2025 11:33:13 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Лілія, колір: рожевий, ціна: 40.0, свіжість: 1 днів, довжина стебла: 30 см, має аромат: так
+трав. 19, 2025 11:33:31 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 19, 2025 11:33:31 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 19, 2025 11:33:32 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 19, 2025 11:33:32 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 19, 2025 11:33:34 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 19, 2025 11:39:35 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 19, 2025 11:39:35 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Тюльпан, колір: жовтий, ціна: 30.0, свіжість: 1 днів, довжина стебла: 32 см, колір візерунку: червоний
+трав. 19, 2025 11:39:35 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Тюльпан, колір: жовтий, ціна: 30.0, свіжість: 1 днів, довжина стебла: 32 см, колір візерунку: червоний
+трав. 19, 2025 11:39:47 ПП commands.EditFlowerCommand execute
+INFO: Квітка оновлена: Тюльпан, колір: червоний, ціна: 30.0, свіжість: 1 днів, довжина стебла: 45 см, колір візерунку: червоний
+трав. 19, 2025 11:39:51 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 19, 2025 11:39:51 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Тюльпан, колір: червоний, ціна: 30.0, свіжість: 1 днів, довжина стебла: 45 см, колір візерунку: червоний
+трав. 19, 2025 11:39:51 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Тюльпан, колір: червоний, ціна: 30.0, свіжість: 1 днів, довжина стебла: 45 см, колір візерунку: червоний
+трав. 19, 2025 11:39:59 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 19, 2025 11:40:00 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 19, 2025 11:40:00 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 2 квіток у букеті.
+трав. 19, 2025 11:40:00 ПП commands.DisplayBouquetCommand execute
+WARNING: Спроба відобразити аксесуари у порожньому букеті.
+трав. 19, 2025 11:40:00 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 19, 2025 11:41:20 ПП commands.EditFlowerCommand execute
+INFO: Квітка оновлена: Ромашка, колір: жовтий, ціна: 18.0, свіжість: 2 днів, довжина стебла: 37 см, кількість пелюсток: 34
+трав. 19, 2025 11:45:40 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 19, 2025 11:45:40 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 19, 2025 11:45:40 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 2 квіток у букеті.
+трав. 19, 2025 11:45:40 ПП commands.DisplayBouquetCommand execute
+WARNING: Спроба відобразити аксесуари у порожньому букеті.
+трав. 19, 2025 11:45:40 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 19, 2025 11:45:50 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 19, 2025 11:45:50 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Лілія, колір: рожевий, ціна: 40.0, свіжість: 1 днів, довжина стебла: 30 см, має аромат: так
+трав. 19, 2025 11:45:50 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Лілія, колір: рожевий, ціна: 40.0, свіжість: 1 днів, довжина стебла: 30 см, має аромат: так
+трав. 19, 2025 11:45:53 ПП gui.MainLayout lambda$new$2
+INFO: Користувач натиснув 'Додати аксесуар'
+трав. 19, 2025 11:45:53 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 19, 2025 11:46:59 ПП bouquet.Bouquet addAccessory
+INFO: Аксесуар додано до букета: Бант, розмір: 20 см, ціна: 12.0 грн
+трав. 19, 2025 11:46:59 ПП commands.ChooseAccessoryCommand execute
+INFO: Аксесуар додано до букета: Бант, розмір: 20 см, ціна: 12.0 грн
+трав. 19, 2025 11:47:25 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 19, 2025 11:47:25 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 19, 2025 11:47:25 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 3 квіток у букеті.
+трав. 19, 2025 11:47:25 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 аксесуарів у букеті.
+трав. 19, 2025 11:47:25 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 19, 2025 11:50:27 ПП gui.MainLayout lambda$new$1
+INFO: Користувач натиснув 'Розрахувати ціну'
+трав. 19, 2025 11:50:27 ПП commands.CalculatePriceCommand execute
+INFO: Розрахунок вартості виконано. Загальна вартість: 112.0 грн
+трав. 19, 2025 11:52:41 ПП gui.MainLayout lambda$new$3
+INFO: Користувач натиснув 'Сортувати за свіжістю'
+трав. 19, 2025 11:52:41 ПП commands.SortFreshnessCommand execute
+INFO: Розпочато сортування квітів за свіжістю.
+трав. 19, 2025 11:52:41 ПП commands.SortFreshnessCommand execute
+INFO: Сортування квітів завершено. Кількість квіток після сортування: 3
+трав. 19, 2025 11:53:00 ПП commands.EditFlowerCommand execute
+INFO: Квітка оновлена: Еустома, колір: фіолетовий, ціна: 28.0, свіжість: 3 днів, довжина стебла: 1 см, інтенсивність запаху: 7
+трав. 19, 2025 11:53:04 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 19, 2025 11:53:04 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 19, 2025 11:53:04 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 3 квіток у букеті.
+трав. 19, 2025 11:53:04 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 аксесуарів у букеті.
+трав. 19, 2025 11:53:04 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 19, 2025 11:53:13 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 19, 2025 11:53:13 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Еустома, колір: фіолетовий, ціна: 28.0, свіжість: 3 днів, довжина стебла: 1 см, інтенсивність запаху: 7
+трав. 19, 2025 11:53:13 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Еустома, колір: фіолетовий, ціна: 28.0, свіжість: 3 днів, довжина стебла: 1 см, інтенсивність запаху: 7
+трав. 19, 2025 11:53:16 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 19, 2025 11:53:16 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 19, 2025 11:53:16 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 4 квіток у букеті.
+трав. 19, 2025 11:53:16 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 аксесуарів у букеті.
+трав. 19, 2025 11:53:16 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 19, 2025 11:53:20 ПП gui.MainLayout lambda$new$3
+INFO: Користувач натиснув 'Сортувати за свіжістю'
+трав. 19, 2025 11:53:20 ПП commands.SortFreshnessCommand execute
+INFO: Розпочато сортування квітів за свіжістю.
+трав. 19, 2025 11:53:20 ПП commands.SortFreshnessCommand execute
+INFO: Сортування квітів завершено. Кількість квіток після сортування: 4
+трав. 19, 2025 11:54:00 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 19, 2025 11:54:00 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Піон, колір: рожевий, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 19, 2025 11:54:00 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Піон, колір: рожевий, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 19, 2025 11:54:03 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 19, 2025 11:54:03 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 19, 2025 11:54:03 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 5 квіток у букеті.
+трав. 19, 2025 11:54:03 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 аксесуарів у букеті.
+трав. 19, 2025 11:54:03 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 19, 2025 11:54:09 ПП gui.MainLayout lambda$new$3
+INFO: Користувач натиснув 'Сортувати за свіжістю'
+трав. 19, 2025 11:54:09 ПП commands.SortFreshnessCommand execute
+INFO: Розпочато сортування квітів за свіжістю.
+трав. 19, 2025 11:54:09 ПП commands.SortFreshnessCommand execute
+INFO: Сортування квітів завершено. Кількість квіток після сортування: 5
+трав. 19, 2025 11:55:38 ПП gui.MainLayout lambda$new$4
+INFO: Користувач натиснув 'Пошук за стеблом'
+трав. 19, 2025 11:55:38 ПП commands.SearchStemCommand execute
+INFO: Користувач запускає пошук за довжиною стебла
+трав. 19, 2025 11:55:45 ПП commands.SearchStemCommand execute
+INFO: Запуск пошуку з межами: 20–25
+трав. 19, 2025 11:55:45 ПП commands.SearchStemCommand performSearch
+WARNING: Не знайдено квітів у діапазоні: 20–25
+трав. 19, 2025 11:55:49 ПП gui.MainLayout lambda$new$4
+INFO: Користувач натиснув 'Пошук за стеблом'
+трав. 19, 2025 11:55:49 ПП commands.SearchStemCommand execute
+INFO: Користувач запускає пошук за довжиною стебла
+трав. 19, 2025 11:56:22 ПП commands.SearchStemCommand execute
+INFO: Запуск пошуку з межами: 25–35
+трав. 19, 2025 11:56:22 ПП commands.SearchStemCommand performSearch
+INFO: Знайдено квіти у діапазоні: 25–35
+трав. 19, 2025 11:57:52 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 19, 2025 11:57:53 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 19, 2025 11:57:53 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 19, 2025 11:57:54 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 20, 2025 11:39:55 ДП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 20, 2025 11:39:55 ДП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 20, 2025 11:39:56 ДП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 20, 2025 11:39:56 ДП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 20, 2025 11:40:00 ДП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 20, 2025 11:40:14 ДП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 20, 2025 11:40:14 ДП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Ромашка, колір: білий, ціна: 18.0, свіжість: 5 днів, довжина стебла: 20 см, кількість пелюсток: 34
+трав. 20, 2025 11:40:14 ДП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Ромашка, колір: білий, ціна: 18.0, свіжість: 5 днів, довжина стебла: 20 см, кількість пелюсток: 34
+трав. 20, 2025 11:40:16 ДП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 20, 2025 11:40:16 ДП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 20, 2025 11:40:16 ДП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 квіток у букеті.
+трав. 20, 2025 11:40:16 ДП commands.DisplayBouquetCommand execute
+WARNING: Спроба відобразити аксесуари у порожньому букеті.
+трав. 20, 2025 11:40:16 ДП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 20, 2025 11:40:20 ДП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 20, 2025 11:40:20 ДП bouquet.Bouquet removeFlower
+INFO: Квітка видалена з букета: Ромашка, колір: білий, ціна: 18.0, свіжість: 5 днів, довжина стебла: 20 см, кількість пелюсток: 34
+трав. 20, 2025 11:40:20 ДП commands.DeleteFromBouquetCommand execute
+INFO: Квітка видалена з букета: Ромашка, колір: білий, ціна: 18.0, свіжість: 5 днів, довжина стебла: 20 см, кількість пелюсток: 34
+трав. 20, 2025 12:40:28 ПП gui.MainApp start
+INFO: Запуск головного вікна.
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Розпочато завантаження квіток з бази даних.
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Підключення до бази даних успішне.
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Троянда (Rose)
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Додано троянду: Троянда
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Ромашка (Chamomile)
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Додано ромашку: Ромашка
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Лілія ніжна (Lily)
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Додано лілію: Лілія ніжна
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Піон весняний (Peony)
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Додано півонію: Піон весняний
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Тюльпан з візерунком (Tulip)
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Додано тюльпан: Тюльпан з візерунком
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Обробка квітки: Еустома духмяна (Lisianthus)
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Додано еустому: Еустома духмяна
+трав. 20, 2025 12:40:29 ПП database.FlowerRepository loadFlowers
+INFO: Завершено завантаження квіток.
+трав. 20, 2025 12:40:29 ПП gui.FlowerListPanel <init>
+INFO: Завантажено квітів з бази: 6
+трав. 20, 2025 12:40:30 ПП gui.MainApp start
+INFO: Головне вікно відображено успішно.
+трав. 20, 2025 12:40:36 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 20, 2025 12:40:36 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Піон, колір: рожевий, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 20, 2025 12:40:36 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Піон, колір: рожевий, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 20, 2025 12:40:43 ПП commands.EditFlowerCommand execute
+INFO: Квітка оновлена: Піон, колір: синій, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 20, 2025 12:40:53 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 20, 2025 12:40:53 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 20, 2025 12:40:53 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 квіток у букеті.
+трав. 20, 2025 12:40:53 ПП commands.DisplayBouquetCommand execute
+WARNING: Спроба відобразити аксесуари у порожньому букеті.
+трав. 20, 2025 12:40:53 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 20, 2025 12:40:56 ПП commands.AddToBouquetCommand execute
+INFO: Виконання команди додавання квітки до букета розпочато
+трав. 20, 2025 12:40:56 ПП bouquet.Bouquet addFlower
+INFO: Квітка додана до букета: Піон, колір: синій, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 20, 2025 12:40:56 ПП commands.AddToBouquetCommand execute
+INFO: Квітка додана до букета: Піон, колір: синій, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 20, 2025 12:40:59 ПП gui.MainLayout lambda$new$2
+INFO: Користувач натиснув 'Додати аксесуар'
+трав. 20, 2025 12:40:59 ПП commands.ChooseAccessoryCommand execute
+INFO: Почато виконання ChooseAccessoryCommand
+трав. 20, 2025 12:41:09 ПП bouquet.Bouquet addAccessory
+INFO: Аксесуар додано до букета: Стрічка, довжина: 26 см, ціна: 12.0 грн
+трав. 20, 2025 12:41:09 ПП commands.ChooseAccessoryCommand execute
+INFO: Аксесуар додано до букета: Стрічка, довжина: 26 см, ціна: 12.0 грн
+трав. 20, 2025 12:41:12 ПП gui.MainLayout lambda$new$0
+INFO: Користувач натиснув 'Вивести букет'
+трав. 20, 2025 12:41:12 ПП commands.DisplayBouquetCommand execute
+INFO: Розпочато відображення вмісту букета.
+трав. 20, 2025 12:41:12 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 2 квіток у букеті.
+трав. 20, 2025 12:41:12 ПП commands.DisplayBouquetCommand execute
+INFO: Відображено 1 аксесуарів у букеті.
+трав. 20, 2025 12:41:12 ПП commands.DisplayBouquetCommand execute
+INFO: Завершено відображення вмісту букета.
+трав. 20, 2025 12:41:16 ПП gui.MainLayout lambda$new$1
+INFO: Користувач натиснув 'Розрахувати ціну'
+трав. 20, 2025 12:41:16 ПП commands.CalculatePriceCommand execute
+INFO: Розрахунок вартості виконано. Загальна вартість: 122.0 грн
+трав. 20, 2025 12:41:19 ПП gui.MainLayout lambda$new$3
+INFO: Користувач натиснув 'Сортувати за свіжістю'
+трав. 20, 2025 12:41:19 ПП commands.SortFreshnessCommand execute
+INFO: Розпочато сортування квітів за свіжістю.
+трав. 20, 2025 12:41:19 ПП commands.SortFreshnessCommand execute
+INFO: Сортування квітів завершено. Кількість квіток після сортування: 2
+трав. 20, 2025 12:41:23 ПП gui.MainLayout lambda$new$4
+INFO: Користувач натиснув 'Пошук за стеблом'
+трав. 20, 2025 12:41:23 ПП commands.SearchStemCommand execute
+INFO: Користувач запускає пошук за довжиною стебла
+трав. 20, 2025 12:41:29 ПП commands.SearchStemCommand execute
+INFO: Запуск пошуку з межами: 30–40
+трав. 20, 2025 12:41:29 ПП commands.SearchStemCommand performSearch
+INFO: Знайдено квіти у діапазоні: 30–40
+трав. 20, 2025 12:41:38 ПП commands.DeleteFromBouquetCommand execute
+INFO: Виконання видалення квітки з букета розпочато
+трав. 20, 2025 12:41:38 ПП bouquet.Bouquet removeFlower
+INFO: Квітка видалена з букета: Піон, колір: синій, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так
+трав. 20, 2025 12:41:38 ПП commands.DeleteFromBouquetCommand execute
+INFO: Квітка видалена з букета: Піон, колір: синій, ціна: 55.0, свіжість: 2 днів, довжина стебла: 38 см, має аромат: так

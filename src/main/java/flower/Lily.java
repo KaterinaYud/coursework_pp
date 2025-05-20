@@ -1,11 +1,16 @@
 package flower;
 
 public class Lily extends Flower {
-    private boolean hasAroma;
+    private boolean isHasAroma;
 
-    public Lily(String color, double price, int freshness, int stemLength, boolean hasAroma) {
-        super(color, price, freshness, stemLength);
-        this.hasAroma = hasAroma;
+    public Lily(String name, String type, String color, double price, int freshness, int stemLength, boolean isHasAroma) {
+        super(name, type, color, price, freshness, stemLength);
+        this.isHasAroma = isHasAroma;
+    }
+
+    @Override
+    public Flower copy() {
+        return new Lily(getName(), getType(), getColor(), getPrice(), getFreshness(), getStemLength(), isHasAroma);
     }
 
     public String toString() {
@@ -13,6 +18,10 @@ public class Lily extends Flower {
                 ", ціна: " + getPrice() +
                 ", свіжість: " + getFreshness() +
                 " днів, довжина стебла: " + getStemLength() +
-                " см, має аромат: " + (hasAroma ? "так" : "ні");
+                " см, має аромат: " + (isHasAroma ? "так" : "ні");
+    }
+
+    public boolean isHasAroma() {
+        return isHasAroma;
     }
 }

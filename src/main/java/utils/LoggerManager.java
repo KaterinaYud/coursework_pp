@@ -1,39 +1,44 @@
 package utils;
+import io.github.cdimascio.dotenv.Dotenv;
 import java.io.IOException;
 import java.util.logging.*;
-import java.util.Properties;
 import javax.mail.*;
 import javax.mail.internet.*;
+import java.util.Properties;
 
 public class LoggerManager {
-    private static final Logger logger = Logger.getLogger(LoggerManager.class.getName());
-
-    static {
+    public static void configureLogging() {
         try {
+            Dotenv dotenv = Dotenv.load();
+            String emailFrom = dotenv.get("GMAIL_FROM");
+            String emailTo = dotenv.get("GMAIL_TO");
+            String emailPassword = dotenv.get("GMAIL_APP_PASSWORD");
+
             FileHandler fileHandler = new FileHandler("app.log", true);
             fileHandler.setFormatter(new SimpleFormatter());
-            logger.addHandler(fileHandler);
-            logger.setLevel(Level.ALL);
+            fileHandler.setLevel(Level.INFO);
+
             ConsoleHandler consoleHandler = new ConsoleHandler();
             consoleHandler.setLevel(Level.SEVERE);
-            logger.addHandler(consoleHandler);
-            SMTPHandler emailHandler = new SMTPHandler("smtp.gmail.com", "yudchenkok@gmail.com", "flrnqspafhixdagc", "yudchenkok@gmail.com");
+
+            SMTPHandler emailHandler = new SMTPHandler("smtp.gmail.com", emailFrom, emailPassword, emailTo);
             emailHandler.setLevel(Level.SEVERE);
-            logger.addHandler(emailHandler);
+
+            Logger rootLogger = Logger.getLogger("");
+            rootLogger.setLevel(Level.INFO);
+            rootLogger.addHandler(fileHandler);
+            rootLogger.addHandler(consoleHandler);
+            rootLogger.addHandler(emailHandler);
         } catch (IOException e) {
             System.err.println("Помилка логування: " + e.getMessage());
         }
     }
 
-    public static Logger getLogger() {
-        return logger;
-    }
-
     public static class SMTPHandler extends Handler {
-        private String host;
-        private String from;
-        private String to;
-        private String password;
+        private final String host;
+        private final String from;
+        private final String to;
+        private final String password;
 
         public SMTPHandler(String host, String from, String password, String to) {
             this.host = host;
@@ -53,15 +58,10 @@ public class LoggerManager {
             }
         }
 
-        @Override
-        public void flush() {
-        }
+        @Override public void flush() {}
+        @Override public void close() throws SecurityException {}
 
-        @Override
-        public void close() throws SecurityException {
-        }
-
-        private void sendEmail(LogRecord record) throws MessagingException {
+        protected void sendEmail(LogRecord record) throws MessagingException {
             Properties properties = new Properties();
             properties.put("mail.smtp.host", host);
             properties.put("mail.smtp.port", "587");
@@ -80,9 +80,9 @@ public class LoggerManager {
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
             message.setSubject("Критична помилка в програмі");
             message.setText("Повідомлення про помилку: " + record.getMessage() + "\n" +
-                    "Дата: " + record.getMillis());
+                    "Дата: " + new java.util.Date(record.getMillis()));
             Transport.send(message);
-            System.out.println("Електронну пошту успішно надіслано.");
         }
     }
 }
+

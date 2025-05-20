@@ -2,94 +2,109 @@ package commands;
 import accessory.*;
 import bouquet.Bouquet;
 import color.Color;
-import utils.InputUtils;
-import utils.LoggerManager;
+import utils.AlertService;
+import utils.InputService;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.logging.Logger;
 
 public class ChooseAccessoryCommand implements Command {
-    private static final Logger logger = LoggerManager.getLogger();
-    private List<Accessory> accessoryList;
-    private Bouquet bouquet;
+    private static final Logger logger = Logger.getLogger(ChooseAccessoryCommand.class.getName());
+    private final Bouquet bouquet;
+    private final AlertService alertService;
+    private final InputService inputService;
 
-    public ChooseAccessoryCommand(List<Accessory> accessoryList, Bouquet bouquet) {
-        this.accessoryList = accessoryList;
+    public ChooseAccessoryCommand(Bouquet bouquet, AlertService alertService, InputService inputService) {
         this.bouquet = bouquet;
+        this.alertService = alertService;
+        this.inputService = inputService;
     }
 
+    @Override
     public void execute() {
+        logger.info("Почато виконання ChooseAccessoryCommand");
         if (bouquet.getAccessories().size() >= 3) {
-            System.out.println("Максимальна кількість аксесуарів до букета — 3. Будь ласка, оберіть іншу опцію.");
-            logger.warning("Спроба додати більше ніж 3 аксесуари до букета.");
+            logger.warning("Спроба додати аксесуар перевищує ліміт у 3 штуки.");
+            alertService.showInfo("Увага", "Максимальна кількість аксесуарів до букета — 3.");
             return;
         }
-        int choice = 0;
-        int attempts = 0;
-        try {
-            while (attempts < 3) {
-                System.out.println("Введіть номер аксесуара: ");
-                System.out.println("1. Бантик");
-                System.out.println("2. Подарункова обгортка");
-                System.out.println("3. Стрічка");
-                choice = InputUtils.getValidInt("Ваш вибір: ");
 
-                if (choice >= 1 && choice <= 3) {
-                    logger.info("Користувач обрав тип аксесуара: " + choice);
-                    break;
-                } else {
-                    attempts++;
-                    if (attempts >= 3) {
-                        logger.severe("Користувач некоректно вводить аксесуар вже тричі");
-                        System.out.println("Ви тричі зробили некоректний вибір. Завершення.");
-                        return;
-                    }
-                    System.out.println("Некоректний вибір аксесуара. Спробуйте ще раз.");
-                    logger.warning("Некоректний вибір аксесуара. Спроба " + attempts);
+        List<String> options = Arrays.asList("Бантик", "Подарункова обгортка", "Стрічка");
+        Optional<String> result = inputService.promptChoice("Вибір аксесуара", "Додайте аксесуар до Вашого букета!", "Тип аксесуара:", options);
+        if (result.isPresent()) {
+            String choice = result.get();
+            try {
+                double price = promptDouble("Ціна", "Введіть ціну аксесуара:");
+                if (price < 0) {
+                    logger.warning("Введено від’ємну ціну аксесуара: " + price);
+                    alertService.showInfo("Помилка", "Ціна не може бути від'ємною.");
+                    return;
                 }
-            }
 
-            double price = InputUtils.getValidDouble("Введіть ціну аксесуара: ");
-            while (price < 0) {
-                System.out.println("Ціна не може бути від'ємною. Введіть коректну ціну.");
-                logger.warning("Введено від'ємну ціну аксесуара.");
-                price = InputUtils.getValidDouble("Введіть ціну аксесуара: ");
-            }
+                Accessory accessory = null;
+                switch (choice) {
+                    case "Бантик":
+                        int size = promptInt("Розмір бантика", "Введіть розмір (10, 20 або 30):");
+                        if (size != 10 && size != 20 && size != 30) {
+                            logger.warning("Некоректний розмір бантика: " + size);
+                            alertService.showInfo("Помилка", "Розмір бантика має бути 10, 20 або 30.");
+                            return;
+                        }
+                        accessory = new Bow(price, size);
+                        break;
 
-            Accessory accessory = null;
-            switch (choice) {
-                case 1:
-                    int size = InputUtils.getValidInt("Введіть розмір бантика (10, 20 або 30): ");
-                    while (size != 10 && size != 20 && size != 30) {
-                        System.out.println("Розмір бантика повинен бути 10, 20 або 30. Спробуйте ще раз.");
-                        logger.warning("Некоректний розмір бантика: " + size);
-                        size = InputUtils.getValidInt("Введіть розмір бантика (10, 20 або 30): ");
-                    }
-                    accessory = new Bow(price, size);
-                    break;
-                case 2:
-                    String color = InputUtils.getStringInput("Введіть колір обгортки: ");
-                    while (!Color.isValidColor(color)) {
-                        System.out.println("Такого кольору, на жаль, немає. Оберіть інший колір.");
-                        logger.warning("Некоректний колір обгортки: " + color);
-                        color = InputUtils.getStringInput("Введіть колір обгортки: ");
-                    }
-                    accessory = new GiftWrap(price, color);
-                    break;
-                case 3:
-                    int length = InputUtils.getValidInt("Введіть довжину стрічки (см): ");
-                    while (length < 0) {
-                        System.out.println("Довжина не може бути від'ємною. Введіть коректну довжину.");
-                        logger.warning("Некоректна довжина стрічки: " + length);
-                        length = InputUtils.getValidInt("Введіть довжину стрічки (см): ");
-                    }
-                    accessory = new Ribbon(price, length);
-                    break;
+                    case "Подарункова обгортка":
+                        String color = promptText("Колір", "Введіть колір обгортки:");
+                        if (!Color.isValidColor(color)) {
+                            logger.warning("Некоректний колір обгортки: " + color);
+                            alertService.showInfo("Помилка", "Некоректний колір.");
+                            return;
+                        }
+                        accessory = new GiftWrap(price, color);
+                        break;
+
+                    case "Стрічка":
+                        int length = promptInt("Довжина стрічки", "Введіть довжину (см):");
+                        if (length < 0) {
+                            logger.warning("Введено від’ємну довжину стрічки: " + length);
+                            alertService.showInfo("Помилка", "Довжина не може бути від'ємною.");
+                            return;
+                        }
+                        accessory = new Ribbon(price, length);
+                        break;
+                }
+
+                if (accessory != null) {
+                    bouquet.addAccessory(accessory);
+                    logger.info("Аксесуар додано до букета: " + accessory);
+                    alertService.showInfo("Аксесуар", "Аксесуар додано до букета.");
+                }
+
+            } catch (NumberFormatException e) {
+                logger.warning("Невірний формат числа при введенні: " + e.getMessage());
+                alertService.showInfo("Помилка", "Невірний формат числа.");
+            } catch (IllegalArgumentException e) {
+                logger.warning("Користувач скасував введення: " + e.getMessage());
+                alertService.showInfo("Скасовано", "Додавання аксесуару скасовано.");
+            } catch (Exception e) {
+                logger.severe("Невідома помилка при додаванні аксесуара: " + e.getMessage());
+                alertService.showInfo("Критична помилка", "Виникла помилка при додаванні аксесуара.");
             }
-            bouquet.addAccessory(accessory);
-            System.out.println("Аксесуар додано: " + accessory.getPrice() + " грн");
-            logger.info("Аксесуар успішно додано: " + accessory);
-        } catch (Exception e) {
-            logger.severe("Помилка під час вибору аксесуара: " + e.getMessage());
+        } else {
+            logger.info("Користувач скасував вибір аксесуара.");
         }
+    }
+
+    private double promptDouble(String title, String content) {
+        return inputService.promptText(title, content).map(Double::parseDouble).orElseThrow(NumberFormatException::new);
+    }
+
+    private int promptInt(String title, String content) {
+        return inputService.promptText(title, content).map(Integer::parseInt).orElseThrow(NumberFormatException::new);
+    }
+
+    private String promptText(String title, String content) {
+        return inputService.promptText(title, content).orElseThrow(() -> new IllegalArgumentException("Введення скасовано"));
     }
 }

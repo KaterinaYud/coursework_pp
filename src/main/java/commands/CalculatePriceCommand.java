@@ -2,24 +2,30 @@ package commands;
 import accessory.Accessory;
 import bouquet.Bouquet;
 import flower.Flower;
-import utils.LoggerManager;
+import utils.AlertService;
 import java.util.logging.Logger;
 
 public class CalculatePriceCommand implements Command {
-    private static final Logger logger = LoggerManager.getLogger();
-    private Bouquet bouquet;
+    private static final Logger logger = Logger.getLogger(CalculatePriceCommand.class.getName());
+    private final Bouquet bouquet;
+    private final AlertService alertService;
 
-    public CalculatePriceCommand(Bouquet bouquet) {
+    public CalculatePriceCommand(Bouquet bouquet, AlertService alertService) {
         this.bouquet = bouquet;
+        this.alertService = alertService;
     }
 
+    @Override
     public void execute() {
         try {
             double totalPrice = calculatePrice();
-            System.out.println("Загальна вартість букета: " + totalPrice + " грн");
             logger.info("Розрахунок вартості виконано. Загальна вартість: " + totalPrice + " грн");
+
+            alertService.showInfo("Ціна", "Загальна ціна букета:\n" + totalPrice + " грн");
         } catch (Exception e) {
             logger.severe("Помилка під час розрахунку вартості: " + e.getMessage());
+
+            alertService.showError("Помилка", e.getMessage());
         }
     }
 
@@ -29,3 +35,4 @@ public class CalculatePriceCommand implements Command {
         return flowersPrice + accessoriesPrice;
     }
 }
+
